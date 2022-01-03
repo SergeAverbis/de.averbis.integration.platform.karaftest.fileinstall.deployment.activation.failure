@@ -1,0 +1,3 @@
+# karaftest
+
+for testing Karaf

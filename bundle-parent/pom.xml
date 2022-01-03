@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>bundle-parent</artifactId>
+
+	<parent>
+		<groupId>de.averbis.integration.karaftest</groupId>
+		<artifactId>karaftest</artifactId>
+		<version>0.9.0-SNAPSHOT</version>
+	</parent>
+
+	<packaging>pom</packaging>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.felix</groupId>
+					<artifactId>maven-bundle-plugin</artifactId>
+					<extensions>true</extensions>
+					<configuration>
+						<niceManifest>true</niceManifest>
+						<exportScr>true</exportScr>
+						<scrLocation>${osgiinf-output-dir}/..</scrLocation>
+						<manifestLocation>${metainf-output-dir}</manifestLocation>
+						<instructions>
+							<_dsannotations>*</_dsannotations>
+							<_metatypeannotations>*</_metatypeannotations>
+							<Bundle-Version>${project.version}</Bundle-Version>
+							<Embed-Dependency>*;scope=compile|runtime;type=jar</Embed-Dependency>
+							<Embed-Transitive>true</Embed-Transitive>
+							<Export-Package/>
+							<Import-Package/>
+						</instructions>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<executions>
+						<execution>
+							<phase>clean</phase>
+							<goals>
+								<goal>clean</goal>
+							</goals>
+							<id>clean-manifest-and-osgiinf</id>
+							<configuration>
+								<filesets>
+									<fileset>
+										<directory>${metainf-output-dir}</directory>
+										<includes>
+											<include>**</include>
+										</includes>
+									</fileset>
+									<fileset>
+										<directory>${osgiinf-output-dir}</directory>
+										<includes>
+											<include>**</include>
+										</includes>
+									</fileset>
+								</filesets>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

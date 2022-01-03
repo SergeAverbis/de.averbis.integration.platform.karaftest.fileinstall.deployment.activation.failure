@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>karaf-distribution</artifactId>
+	<name>${project.artifactId}</name>
+
+	<parent>
+		<groupId>de.averbis.integration.karaftest</groupId>
+		<artifactId>distribution</artifactId>
+		<version>0.9.0-SNAPSHOT</version>
+	</parent>
+
+	<packaging>karaf-assembly</packaging>
+
+	<properties>
+		<karaf-output-dir>${project.build.directory}/karaf</karaf-output-dir>
+		<karaf-version>4.2.14</karaf-version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.apache.karaf.features</groupId>
+			<artifactId>framework</artifactId>
+			<version>${karaf-version}</version>
+			<type>kar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.karaf.features</groupId>
+			<artifactId>standard</artifactId>
+			<version>${karaf-version}</version>
+			<classifier>features</classifier>
+			<type>xml</type>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.karaf.features</groupId>
+			<artifactId>enterprise</artifactId>
+			<version>${karaf-version}</version>
+			<classifier>features</classifier>
+			<type>xml</type>
+			<scope>runtime</scope>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<overwrite>true</overwrite>
+							<encoding>UTF-8</encoding>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/resources</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.karaf.tooling</groupId>
+				<artifactId>karaf-maven-plugin</artifactId>
+				<extensions>true</extensions>
+				<version>${karaf-version}</version>
+				<configuration>
+					<targetServerDirectory>${karaf-output-dir}</targetServerDirectory>
+					<workDirectory>${project.build.directory}/karaf</workDirectory>
+					<usePathPrefix>false</usePathPrefix>
+					<javase>1.8</javase>
+					<finalName>${project.artifactId}</finalName>
+					<bootFeatures>
+						<feature>bundle</feature>
+						<feature>config</feature>
+						<feature>deployer</feature>
+						<feature>diagnostic</feature>
+						<feature>feature</feature>
+						<feature>log</feature>
+						<feature>package</feature>
+						<feature>service</feature>
+						<feature>shell</feature>
+						<feature>ssh</feature>
+						<feature>scr</feature>
+						<feature>system</feature>
+						<feature>war</feature>
+						<feature>webconsole</feature>
+						<feature>kar</feature>
+					</bootFeatures>
+					<archiveZip>true</archiveZip>
+					<archiveTarGz>false</archiveTarGz>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

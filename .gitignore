@@ -1,0 +1,23 @@
+target/
+bin/
+.buildpath
+.project
+.settings/
+.classpath
+.factorypath
+build.properties
+META-INF/
+OSGI-INF/
+
+# jenkins
+\.repository
+
+
+**/.vscode/
+
+
+# IntelliJ project
+*.iml
+.idea
+
+

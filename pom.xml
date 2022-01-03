@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>de.averbis.integration.karaftest</groupId>
+	<artifactId>karaftest</artifactId>
+	<version>0.9.0-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+
+	<name>${project.artifactId}</name>
+
+
+	<developers>
+		<developer>
+			<name>Entwicklerteam</name>
+		</developer>
+	</developers>
+
+	<properties>
+		<scm-connection>scm:git:git://gitlab.averbis.intern/IDT/karaftest.git</scm-connection>
+		<scm-url>https://gitlab.averbis.intern/IDT/karaftest</scm-url>
+		<metainf-output-dir>${project.basedir}/META-INF</metainf-output-dir>
+		<osgiinf-output-dir>${project.basedir}/OSGI-INF</osgiinf-output-dir>
+	</properties>
+	<scm>
+		<connection>${scm-connection}</connection>
+		<developerConnection>${scm-connection}</developerConnection>
+		<url>{scm-url}</url>
+		<tag>HEAD</tag>
+	</scm>
+	<modules>
+		<module>bundle-parent</module>
+		<module>bundle0</module>
+		<module>bundle1</module>
+		<module>bundle2</module>
+		<module>bundle3</module>
+		<module>bundle4</module>
+		<module>bundle5</module>
+		<module>distribution</module>
+	</modules>
+
+
+</project>

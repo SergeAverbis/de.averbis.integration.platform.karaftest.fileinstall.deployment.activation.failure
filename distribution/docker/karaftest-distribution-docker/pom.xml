@@ -240,7 +240,7 @@
 									<version>${project.version}</version>
 								</artifactItem>
 							</artifactItems>
-							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
+							<outputDirectory>${karaf-output-dir}/deploy2</outputDirectory>
 						</configuration>
 					</execution>
 					<execution>

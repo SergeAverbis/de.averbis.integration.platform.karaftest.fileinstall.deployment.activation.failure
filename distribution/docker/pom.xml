@@ -15,15 +15,32 @@
 	<properties>
 		<product-name>karaftest</product-name>
 		<karaftest-internal-short-imagename>karaftest</karaftest-internal-short-imagename>
-		<karaftest-internal-imagename>registry.averbis.intern/karaftest/${karaftest-internal-short-imagename}</karaftest-internal-imagename>
+		<karaftest-internal-imagename>${karaftest-internal-short-imagename}</karaftest-internal-imagename>
+		<karaftest-base-internal-short-imagename>karaftest-base</karaftest-base-internal-short-imagename>
+		<karaftest-base-internal-imagename>${karaftest-internal-short-imagename}</karaftest-base-internal-imagename>
 
 	</properties>
 
 
 	<modules>
+		<module>karaftest-base-distribution-docker</module>
 		<module>karaftest-distribution-docker</module>
 		<module>compose-docker</module>
 	</modules>
 
 
+	<profiles>
+		<profile>
+			<id>
+				base
+			</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>karaftest-base-distribution-docker</module>
+			</modules>
+
+		</profile>
+	</profiles>
 </project>

@@ -17,7 +17,6 @@
 		<karaftest-output-dir>${project.build.directory}/${karaftest-output-subdir}</karaftest-output-dir>
 		<karaf-output-subdir>karaf</karaf-output-subdir>
 		<karaf-output-dir>${karaftest-output-dir}/${karaf-output-subdir}</karaf-output-dir>
-		<karaf-distribution-artifactId>karaf-distribution</karaf-distribution-artifactId>
 		<bundle0-artifactId>bundle0</bundle0-artifactId>
 		<bundle1-artifactId>bundle1</bundle1-artifactId>
 		<bundle2-artifactId>bundle2</bundle2-artifactId>
@@ -31,9 +30,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>${karaf-distribution-artifactId}</artifactId>
+			<artifactId>karaftest-base-distribution-docker</artifactId>
 			<version>${project.version}</version>
-			<type>zip</type>
+			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -87,25 +86,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
 				<executions>
-					<execution>
-						<id>unpack-karaf-distribution</id>
-						<phase>generate-resources</phase>
-						<goals>
-							<goal>unpack</goal>
-						</goals>
-						<configuration>
-							<artifactItems>
-								<artifactItem>
-									<groupId>${project.groupId}</groupId>
-									<artifactId>${karaf-distribution-artifactId}</artifactId>
-									<version>${project.version}</version>
-									<type>zip</type>
-								</artifactItem>
-							</artifactItems>
-							<outputDirectory>${karaf-output-dir}</outputDirectory>
-						</configuration>
-					</execution>
-					<execution>
+					<!-- execution>
 						<id>copy-bundle0</id>
 						<phase>process-resources</phase>
 						<goals>
@@ -206,7 +187,7 @@
 							</artifactItems>
 							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
 						</configuration>
-					</execution>
+					</execution -->
 					<execution>
 						<id>copy-bundleapi</id>
 						<phase>process-resources</phase>
@@ -241,7 +222,7 @@
 							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
 						</configuration>
 					</execution>
-					<execution>
+					<!-- execution>
 						<id>copy-bundleclient</id>
 						<phase>process-resources</phase>
 						<goals>
@@ -257,7 +238,7 @@
 							</artifactItems>
 							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
 						</configuration>
-					</execution>
+					</execution -->
 				</executions>
 			</plugin>
 			<plugin>

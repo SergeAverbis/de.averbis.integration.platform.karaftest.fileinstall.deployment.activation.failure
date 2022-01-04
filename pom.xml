@@ -39,6 +39,9 @@
 		<module>bundle3</module>
 		<module>bundle4</module>
 		<module>bundle5</module>
+		<module>bundleapi</module>
+		<module>bundleimpl</module>
+		<module>bundleclient</module>
 		<module>distribution</module>
 	</modules>
 

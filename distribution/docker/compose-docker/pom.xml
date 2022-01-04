@@ -103,6 +103,11 @@
 	<profiles>
 		<profile>
 			<id>deployDocker</id>
+			<activation>
+				<activeByDefault>
+					true
+				</activeByDefault>
+			</activation>
 			<build>
 				<plugins>
 					<plugin>

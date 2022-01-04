@@ -24,6 +24,9 @@
 		<bundle3-artifactId>bundle3</bundle3-artifactId>
 		<bundle4-artifactId>bundle4</bundle4-artifactId>
 		<bundle5-artifactId>bundle5</bundle5-artifactId>
+		<bundleapi-artifactId>bundleapi</bundleapi-artifactId>
+		<bundleimpl-artifactId>bundleimpl</bundleimpl-artifactId>
+		<bundleclient-artifactId>bundleclient</bundleclient-artifactId>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -60,6 +63,21 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>${bundle5-artifactId}</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>${bundleapi-artifactId}</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>${bundleimpl-artifactId}</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>${bundleclient-artifactId}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
@@ -183,6 +201,57 @@
 								<artifactItem>
 									<groupId>${project.groupId}</groupId>
 									<artifactId>${bundle5-artifactId}</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+							</artifactItems>
+							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-bundleapi</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>${bundleapi-artifactId}</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+							</artifactItems>
+							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-bundleimpl</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>${bundleimpl-artifactId}</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+							</artifactItems>
+							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-bundleclient</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>${bundleclient-artifactId}</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
 							</artifactItems>

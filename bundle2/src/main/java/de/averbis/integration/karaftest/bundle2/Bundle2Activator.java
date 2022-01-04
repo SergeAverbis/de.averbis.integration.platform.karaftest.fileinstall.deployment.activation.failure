@@ -6,8 +6,11 @@ import org.osgi.framework.BundleContext;
 public class Bundle2Activator implements BundleActivator {
 
 	public void start(BundleContext bundleContext) throws Exception {
-		System.out.println("activating bundle2 sleep 20s...");
-		Thread.sleep(20000);
+		final int sleepDuration=0;
+		if (sleepDuration>0) {
+			System.out.println("activating bundle2 sleep " + sleepDuration + "s ...");
+			Thread.sleep(sleepDuration * 1000);
+		}
 		System.out.println("bundle2 activated");
 	}
 

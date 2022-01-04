@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>bundle0</artifactId>
-	<name>Averbis Platform :: Karaf Test :: bundle0</name>
+	<name>Averbis Platform :: Karaf Test :: ${project.artifactId}</name>
 
 	<packaging>bundle</packaging>
 

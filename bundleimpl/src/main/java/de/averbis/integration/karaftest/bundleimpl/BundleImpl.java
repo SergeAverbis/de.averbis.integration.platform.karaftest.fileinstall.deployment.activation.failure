@@ -5,7 +5,6 @@
 package de.averbis.integration.karaftest.bundleimpl;
 
 import de.averbis.integration.karaftest.bundleapi.BundleApi;
-import org.graalvm.compiler.lir.CompositeValue;
 import org.osgi.service.component.annotations.Component;
 
 @Component

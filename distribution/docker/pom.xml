@@ -23,7 +23,6 @@
 
 
 	<modules>
-		<module>karaftest-base-distribution-docker</module>
 		<module>karaftest-distribution-docker</module>
 		<module>compose-docker</module>
 	</modules>

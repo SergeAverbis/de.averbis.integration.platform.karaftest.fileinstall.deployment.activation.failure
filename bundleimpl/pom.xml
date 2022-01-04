@@ -18,7 +18,6 @@
 		<dependency>
 			<groupId>org.osgi</groupId>
 			<artifactId>org.osgi.service.component.annotations</artifactId>
-			<version>1.4.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -26,11 +25,6 @@
 			<artifactId>bundleapi</artifactId>
 			<version>0.9.0-SNAPSHOT</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.5</version>
 		</dependency>
 	</dependencies>
 	<build>

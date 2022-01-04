@@ -15,7 +15,22 @@
 
 	<modules>
 		<module>docker</module>
-		<module>karaf-distribution</module>
 	</modules>
+
+	<profiles>
+		<profile>
+			<id>
+				base
+			</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>karaf-distribution</module>
+			</modules>
+
+		</profile>
+	</profiles>
+
 
 </project>

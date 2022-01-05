@@ -113,29 +113,21 @@
 					<plugin>
 						<groupId>com.dkanejs.maven.plugins</groupId>
 						<artifactId>docker-compose-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>start-karaftest</id>
+								<phase>install</phase>
+								<goals>
+									<goal>up</goal>
+								</goals>
+								<configuration>
+									<composeFile>${project.build.directory}/compose/karaftest/docker-compose.yml</composeFile>
+									<detachedMode>true</detachedMode>
+								</configuration>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
-				<pluginManagement>
-					<plugins>
-						<plugin>
-							<groupId>com.dkanejs.maven.plugins</groupId>
-							<artifactId>docker-compose-maven-plugin</artifactId>
-							<executions>
-								<execution>
-									<id>start-karaftest</id>
-									<phase>install</phase>
-									<goals>
-										<goal>up</goal>
-									</goals>
-									<configuration>
-										<composeFile>${project.build.directory}/compose/karaftest/docker-compose.yml</composeFile>
-										<detachedMode>true</detachedMode>
-									</configuration>
-								</execution>
-							</executions>
-						</plugin>
-					</plugins>
-				</pluginManagement>
 			</build>
 		</profile>
 	</profiles>

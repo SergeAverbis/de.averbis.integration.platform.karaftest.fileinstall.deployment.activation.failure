@@ -42,12 +42,12 @@
 	</scm>
 	<modules>
 		<module>bundle-parent</module>
-		<module>bundle0</module>
+		<!-- module>bundle0</module>
 		<module>bundle1</module>
 		<module>bundle2</module>
 		<module>bundle3</module>
 		<module>bundle4</module>
-		<module>bundle5</module>
+		<module>bundle5</module -->
 		<module>bundleapi</module>
 		<module>bundleimpl</module>
 		<module>bundleclient</module>

@@ -48,10 +48,6 @@
 									<filtering>true</filtering>
 								</resource>
 							</resources>
-							<delimiters>
-								<delimiter>___</delimiter>
-							</delimiters>
-							<escapeString>\</escapeString>
 						</configuration>
 					</execution>
 				</executions>
@@ -121,7 +117,7 @@
 									<goal>up</goal>
 								</goals>
 								<configuration>
-									<composeFile>${project.build.directory}/compose/karaftest/docker-compose.yml</composeFile>
+									<composeFile>${compose-file-output-dir}/docker-compose.yml</composeFile>
 									<detachedMode>true</detachedMode>
 								</configuration>
 							</execution>

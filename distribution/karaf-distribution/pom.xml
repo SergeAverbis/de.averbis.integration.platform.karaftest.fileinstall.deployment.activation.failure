@@ -15,7 +15,6 @@
 
 	<properties>
 		<karaf-output-dir>${project.build.directory}/karaf</karaf-output-dir>
-		<karaf-version>4.2.14</karaf-version>
 	</properties>
 
 	<dependencies>

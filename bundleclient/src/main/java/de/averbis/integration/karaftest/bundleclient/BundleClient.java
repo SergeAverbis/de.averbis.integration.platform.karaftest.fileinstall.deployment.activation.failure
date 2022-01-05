@@ -19,6 +19,6 @@ public class BundleClient {
 	@Activate
 	public void activate() {
 
-		System.out.println(">>>>>>>>>>>>>>>>>> ACTIVATING "+getClass().getSimpleName()+" "+BundleApi.class.getSimpleName()+" says '"+bundleApi.api()+"'");
+		System.out.println("ACTIVATING " + this.getClass().getSimpleName() + " " + BundleApi.class.getSimpleName() + " says '" + this.bundleApi.api() + "'");
 	}
 }

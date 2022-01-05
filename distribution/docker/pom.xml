@@ -13,10 +13,9 @@
 	</parent>
 
 	<properties>
-		<product-name>karaftest</product-name>
-		<karaftest-internal-short-imagename>karaftest</karaftest-internal-short-imagename>
+		<karaftest-internal-short-imagename>karaftest-${karaf-version}</karaftest-internal-short-imagename>
 		<karaftest-internal-imagename>${karaftest-internal-short-imagename}</karaftest-internal-imagename>
-		<karaftest-base-internal-short-imagename>karaftest-base</karaftest-base-internal-short-imagename>
+		<karaftest-base-internal-short-imagename>karaftest-base-${karaf-version}</karaftest-base-internal-short-imagename>
 		<karaftest-base-internal-imagename>${karaftest-internal-short-imagename}</karaftest-base-internal-imagename>
 
 	</properties>

@@ -1,0 +1,24 @@
+Installing bundle de.averbis.integration.karaftest.bundleimpl / 0.9.0.SNAPSHOT
+10:19:57.792 INFO  [fileinstall-/opt/karaf/deploy] Installing bundle de.averbis.integration.karaftest.bundleclient / 0.9.0.SNAPSHOT
+10:19:57.804 INFO  [fileinstall-/opt/karaf/deploy] Installing bundle de.averbis.integration.karaftest.bundleapi / 0.9.0.SNAPSHOT
+10:19:57.823 WARN  [fileinstall-/opt/karaf/deploy] Error while starting bundle: file:/opt/karaf/deploy/bundleimpl-0.9.0-SNAPSHOT.jar
+org.osgi.framework.BundleException: Unable to resolve de.averbis.integration.karaftest.bundleimpl [12](R 12.0): missing requirement [de.averbis.integration.karaftest.bundleimpl [12](R 12.0)] osgi.extender; (&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0))) Unresolved requirements: [[de.averbis.integration.karaftest.bundleimpl [12](R 12.0)] osgi.extender; (&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))]
+        at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4149)
+        at org.apache.felix.framework.Felix.startBundle(Felix.java:2119)
+        at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1260)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1233)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:520)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:365)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:316)
+10:19:57.835 WARN  [fileinstall-/opt/karaf/deploy] Error while starting bundle: file:/opt/karaf/deploy/bundleclient-0.9.0-SNAPSHOT.jar
+org.osgi.framework.BundleException: Unable to resolve de.averbis.integration.karaftest.bundleclient [13](R 13.0): missing requirement [de.averbis.integration.karaftest.bundleclient [13](R 13.0)] osgi.extender; (&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0))) Unresolved requirements: [[de.averbis.integration.karaftest.bundleclient [13](R 13.0)] osgi.extender; (&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))]
+        at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4149)
+        at org.apache.felix.framework.Felix.startBundle(Felix.java:2119)
+        at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1260)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1233)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:520)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:365)
+        at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:316)
+10:19:57.850 INFO  [fileinstall-/opt/karaf/deploy] Started bundle: file:/opt/karaf/deploy/bundleapi-0.9.0-SNAPSHOT.jar

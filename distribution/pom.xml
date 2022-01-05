@@ -12,6 +12,9 @@
 		<version>0.9.0-SNAPSHOT</version>
 	</parent>
 
+	<properties>
+		<karaf-version>${KARAF_VERSION}</karaf-version>
+	</properties>
 
 	<modules>
 		<module>docker</module>

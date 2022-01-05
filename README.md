@@ -37,10 +37,6 @@ The bundle 'bundleapi' contains dummy files (ballast*) to make it big
 
 Karaf 4.2.14 4.2.13 4.2.12 4.2.11 4.2.10
 
-### NOT REPRODUCED IN
-
-Karaf 4.2.11
-
 ### MOREOVER
 
 The problem occurs sometimes even if the bundles are deployed in the same directory (deploy) and without the dummy files

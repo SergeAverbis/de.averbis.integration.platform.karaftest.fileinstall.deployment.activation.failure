@@ -1,7 +1,6 @@
 FROM openjdk:8-jre
 ENV KARAF_HOME /opt/${karaf-output-subdir}
 ENV PATH $PATH:$KARAF_HOME/bin
-ENV PLATFORM_MAX_MEM "8G"
 
 COPY ${karaftest-output-subdir} /opt
 

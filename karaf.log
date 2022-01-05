@@ -1,192 +1,192 @@
-Jan 05, 2022 10:09:39 PM org.apache.karaf.main.Main launch
+Jan 05, 2022 11:15:49 PM org.apache.karaf.main.Main launch
 INFO: Installing and starting initial bundles
-Jan 05, 2022 10:09:40 PM org.apache.karaf.main.Main launch
+Jan 05, 2022 11:15:49 PM org.apache.karaf.main.Main launch
 INFO: All initial bundles installed and set to start
-Jan 05, 2022 10:09:40 PM org.apache.karaf.main.lock.SimpleFileLock lock
+Jan 05, 2022 11:15:49 PM org.apache.karaf.main.lock.SimpleFileLock lock
 INFO: Trying to lock /opt/karaf/lock
-Jan 05, 2022 10:09:40 PM org.apache.karaf.main.lock.SimpleFileLock lock
+Jan 05, 2022 11:15:49 PM org.apache.karaf.main.lock.SimpleFileLock lock
 INFO: Lock acquired
-Jan 05, 2022 10:09:40 PM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+Jan 05, 2022 11:15:49 PM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
 INFO: Lock acquired. Setting startlevel to 100
-2022-01-05T22:09:41,676 | INFO  | activator-1-thread-2 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Adding features: log/[4.2.14,4.2.14],shell/[4.2.14,4.2.14],scr/[4.2.14,4.2.14],service/[4.2.14,4.2.14],system/[4.2.14,4.2.14],package/[4.2.14,4.2.14],diagnostic/[4.2.14,4.2.14],bundle/[4.2.14,4.2.14],webconsole/[4.2.14,4.2.14],feature/[4.2.14,4.2.14],deployer/[4.2.14,4.2.14],framework/[4.2.14,4.2.14],ssh/[4.2.14,4.2.14],config/[4.2.14,4.2.14]
-2022-01-05T22:09:42,098 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Changes to perform:
-2022-01-05T22:09:42,098 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   Region: root
-2022-01-05T22:09:42,098 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |     Bundles to install:
-2022-01-05T22:09:42,098 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.bouncycastle/bcpkix-jdk15on/1.69
-2022-01-05T22:09:42,098 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.bouncycastle/bcprov-jdk15on/1.69
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.bouncycastle/bcutil-jdk15on/1.69
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:javax.annotation/javax.annotation-api/1.3
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:javax.servlet/javax.servlet-api/3.1.0
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.3.2
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.inventory/1.0.6
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.metatype/1.2.4
-2022-01-05T22:09:42,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.scr/2.1.30
-2022-01-05T22:09:42,100 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.ds/2.1.0
-2022-01-05T22:09:42,100 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.10
-2022-01-05T22:09:42,100 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1
-2022-01-05T22:09:42,100 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1
-2022-01-05T22:09:42,100 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.2.14
-2022-01-05T22:09:42,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.config/org.apache.karaf.config.core/4.2.14
-2022-01-05T22:09:42,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.2.14
-2022-01-05T22:09:42,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.2.14
-2022-01-05T22:09:42,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.2.14
-2022-01-05T22:09:42,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.2.14
-2022-01-05T22:09:42,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.2.14
-2022-01-05T22:09:42,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.2.14
-2022-01-05T22:09:42,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.2.14
-2022-01-05T22:09:42,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.2.14
-2022-01-05T22:09:42,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.2.14
-2022-01-05T22:09:42,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.scr/org.apache.karaf.scr.state/4.2.14
-2022-01-05T22:09:42,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.2.14
-2022-01-05T22:09:42,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.2.14
-2022-01-05T22:09:42,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.2.14
-2022-01-05T22:09:42,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.2.14
-2022-01-05T22:09:42,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.2.14
-2022-01-05T22:09:42,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/4.2.14
-2022-01-05T22:09:42,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/4.2.14
-2022-01-05T22:09:42,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/4.2.14
-2022-01-05T22:09:42,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/4.2.14
-2022-01-05T22:09:42,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-websocket-api/1.1_1
-2022-01-05T22:09:42,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
-2022-01-05T22:09:42,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.sshd/sshd-osgi/2.5.1
-2022-01-05T22:09:42,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.sshd/sshd-scp/2.5.1
-2022-01-05T22:09:42,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.sshd/sshd-sftp/2.5.1
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.xbean/xbean-bundleutils/4.20
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.xbean/xbean-finder/4.20
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-client/9.4.43.v20210629
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-continuation/9.4.43.v20210629
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-deploy/9.4.43.v20210629
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-http/9.4.43.v20210629
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-io/9.4.43.v20210629
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jaas/9.4.43.v20210629
-2022-01-05T22:09:42,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jmx/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jndi/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-plus/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-proxy/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-rewrite/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-security/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jaspi/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-server/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-servlet/9.4.43.v20210629
-2022-01-05T22:09:42,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-servlets/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-util/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-util-ajax/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-webapp/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-api/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-client/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-common/9.4.43.v20210629
-2022-01-05T22:09:42,108 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.43.v20210629
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.43.v20210629
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-server/9.4.43.v20210629
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-servlet/9.4.43.v20210629
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-xml/9.4.43.v20210629
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-builtins/3.19.0
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-reader/3.19.0
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-terminal/3.19.0
-2022-01-05T22:09:42,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-terminal-jansi/3.19.0
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm/9.1
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-commons/9.1
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-tree/9.1
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-analysis/9.1
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-util/9.1
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-api/7.2.29
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-jetty/7.2.29
-2022-01-05T22:09:42,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-runtime/7.2.29
-2022-01-05T22:09:42,111 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-spi/7.2.29
-2022-01-05T22:09:42,114 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Installing bundles:
-2022-01-05T22:09:42,114 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.bouncycastle/bcpkix-jdk15on/1.69
-2022-01-05T22:09:42,126 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.bouncycastle/bcprov-jdk15on/1.69
-2022-01-05T22:09:42,144 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.bouncycastle/bcutil-jdk15on/1.69
-2022-01-05T22:09:42,148 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:javax.annotation/javax.annotation-api/1.3
-2022-01-05T22:09:42,150 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:javax.servlet/javax.servlet-api/3.1.0
-2022-01-05T22:09:42,152 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.3.2
-2022-01-05T22:09:42,174 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.inventory/1.0.6
-2022-01-05T22:09:42,176 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.metatype/1.2.4
-2022-01-05T22:09:42,178 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.scr/2.1.30
-2022-01-05T22:09:42,181 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.webconsole.plugins.ds/2.1.0
-2022-01-05T22:09:42,183 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.10
-2022-01-05T22:09:42,185 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1
-2022-01-05T22:09:42,187 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1
-2022-01-05T22:09:42,189 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.2.14
-2022-01-05T22:09:42,191 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.config/org.apache.karaf.config.core/4.2.14
-2022-01-05T22:09:42,193 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.2.14
-2022-01-05T22:09:42,195 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.2.14
-2022-01-05T22:09:42,197 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.2.14
-2022-01-05T22:09:42,199 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.2.14
-2022-01-05T22:09:42,202 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.2.14
-2022-01-05T22:09:42,204 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.2.14
-2022-01-05T22:09:42,206 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.2.14
-2022-01-05T22:09:42,210 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.2.14
-2022-01-05T22:09:42,212 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.2.14
-2022-01-05T22:09:42,213 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.scr/org.apache.karaf.scr.state/4.2.14
-2022-01-05T22:09:42,215 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.2.14
-2022-01-05T22:09:42,216 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.2.14
-2022-01-05T22:09:42,217 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.2.14
-2022-01-05T22:09:42,220 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.2.14
-2022-01-05T22:09:42,222 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.2.14
-2022-01-05T22:09:42,224 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/4.2.14
-2022-01-05T22:09:42,227 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/4.2.14
-2022-01-05T22:09:42,228 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/4.2.14
-2022-01-05T22:09:42,229 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/4.2.14
-2022-01-05T22:09:42,231 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-websocket-api/1.1_1
-2022-01-05T22:09:42,232 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
-2022-01-05T22:09:42,234 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.sshd/sshd-osgi/2.5.1
-2022-01-05T22:09:42,239 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.sshd/sshd-scp/2.5.1
-2022-01-05T22:09:42,241 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.sshd/sshd-sftp/2.5.1
-2022-01-05T22:09:42,243 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.xbean/xbean-bundleutils/4.20
-2022-01-05T22:09:42,244 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.xbean/xbean-finder/4.20
-2022-01-05T22:09:42,246 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-client/9.4.43.v20210629
-2022-01-05T22:09:42,249 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-continuation/9.4.43.v20210629
-2022-01-05T22:09:42,251 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-deploy/9.4.43.v20210629
-2022-01-05T22:09:42,253 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-http/9.4.43.v20210629
-2022-01-05T22:09:42,255 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-io/9.4.43.v20210629
-2022-01-05T22:09:42,257 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jaas/9.4.43.v20210629
-2022-01-05T22:09:42,259 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jmx/9.4.43.v20210629
-2022-01-05T22:09:42,260 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jndi/9.4.43.v20210629
-2022-01-05T22:09:42,262 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-plus/9.4.43.v20210629
-2022-01-05T22:09:42,264 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-proxy/9.4.43.v20210629
-2022-01-05T22:09:42,266 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-rewrite/9.4.43.v20210629
-2022-01-05T22:09:42,267 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-security/9.4.43.v20210629
-2022-01-05T22:09:42,269 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jaspi/9.4.43.v20210629
-2022-01-05T22:09:42,271 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-server/9.4.43.v20210629
-2022-01-05T22:09:42,273 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-servlet/9.4.43.v20210629
-2022-01-05T22:09:42,275 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-servlets/9.4.43.v20210629
-2022-01-05T22:09:42,277 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-util/9.4.43.v20210629
-2022-01-05T22:09:42,279 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-util-ajax/9.4.43.v20210629
-2022-01-05T22:09:42,281 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-webapp/9.4.43.v20210629
-2022-01-05T22:09:42,282 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-api/9.4.43.v20210629
-2022-01-05T22:09:42,284 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-client/9.4.43.v20210629
-2022-01-05T22:09:42,286 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-common/9.4.43.v20210629
-2022-01-05T22:09:42,288 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.43.v20210629
-2022-01-05T22:09:42,290 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.43.v20210629
-2022-01-05T22:09:42,292 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-server/9.4.43.v20210629
-2022-01-05T22:09:42,293 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-servlet/9.4.43.v20210629
-2022-01-05T22:09:42,295 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-xml/9.4.43.v20210629
-2022-01-05T22:09:42,296 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-builtins/3.19.0
-2022-01-05T22:09:42,298 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-reader/3.19.0
-2022-01-05T22:09:42,333 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-terminal/3.19.0
-2022-01-05T22:09:42,335 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-terminal-jansi/3.19.0
-2022-01-05T22:09:42,336 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm/9.1
-2022-01-05T22:09:42,338 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-commons/9.1
-2022-01-05T22:09:42,339 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-tree/9.1
-2022-01-05T22:09:42,341 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-analysis/9.1
-2022-01-05T22:09:42,342 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-util/9.1
-2022-01-05T22:09:42,343 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-api/7.2.29
-2022-01-05T22:09:42,345 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-jetty/7.2.29
-2022-01-05T22:09:42,348 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-runtime/7.2.29
-2022-01-05T22:09:42,351 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-spi/7.2.29
-2022-01-05T22:09:42,367 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Creating configuration file /opt/karaf/etc/jetty.xml
-2022-01-05T22:09:42,546 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Starting bundles:
-2022-01-05T22:09:42,547 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.deployer.features/4.2.14
-2022-01-05T22:09:42,574 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.karaftest.bundleimpl / 0.9.0.SNAPSHOT
-2022-01-05T22:09:42,574 | INFO  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.karaftest.bundleapi / 0.9.0.SNAPSHOT
-2022-01-05T22:09:42,581 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.jline.terminal/3.19.0
-2022-01-05T22:09:42,582 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.metatype/1.2.4
-2022-01-05T22:09:42,589 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   javax.servlet-api/3.1.0
-2022-01-05T22:09:42,590 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-api/7.2.29
-2022-01-05T22:09:42,590 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.console/4.2.14
-2022-01-05T22:09:42,610 | WARN  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Error while starting bundle: file:/opt/karaf/deploy2/bundleimpl-0.9.0-SNAPSHOT.jar
-org.osgi.framework.BundleException: Unable to resolve de.averbis.integration.karaftest.bundleimpl [93](R 93.0): missing requirement [de.averbis.integration.karaftest.bundleimpl [93](R 93.0)] osgi.wiring.package; (&(osgi.wiring.package=de.averbis.integration.karaftest.bundleapi)(version>=0.9.0)(!(version>=1.0.0))) Unresolved requirements: [[de.averbis.integration.karaftest.bundleimpl [93](R 93.0)] osgi.wiring.package; (&(osgi.wiring.package=de.averbis.integration.karaftest.bundleapi)(version>=0.9.0)(!(version>=1.0.0)))]
+2022-01-05T23:15:51,017 | INFO  | activator-1-thread-2 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Adding features: log/[4.2.14,4.2.14],shell/[4.2.14,4.2.14],scr/[4.2.14,4.2.14],service/[4.2.14,4.2.14],system/[4.2.14,4.2.14],package/[4.2.14,4.2.14],diagnostic/[4.2.14,4.2.14],bundle/[4.2.14,4.2.14],webconsole/[4.2.14,4.2.14],feature/[4.2.14,4.2.14],deployer/[4.2.14,4.2.14],framework/[4.2.14,4.2.14],ssh/[4.2.14,4.2.14],config/[4.2.14,4.2.14]
+2022-01-05T23:15:51,456 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Changes to perform:
+2022-01-05T23:15:51,456 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   Region: root
+2022-01-05T23:15:51,456 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |     Bundles to install:
+2022-01-05T23:15:51,457 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.bouncycastle/bcpkix-jdk15on/1.69
+2022-01-05T23:15:51,457 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.bouncycastle/bcprov-jdk15on/1.69
+2022-01-05T23:15:51,457 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.bouncycastle/bcutil-jdk15on/1.69
+2022-01-05T23:15:51,457 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:javax.annotation/javax.annotation-api/1.3
+2022-01-05T23:15:51,457 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:javax.servlet/javax.servlet-api/3.1.0
+2022-01-05T23:15:51,458 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.3.2
+2022-01-05T23:15:51,458 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.inventory/1.0.6
+2022-01-05T23:15:51,458 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.metatype/1.2.4
+2022-01-05T23:15:51,458 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.scr/2.1.30
+2022-01-05T23:15:51,458 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.ds/2.1.0
+2022-01-05T23:15:51,459 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.10
+2022-01-05T23:15:51,459 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1
+2022-01-05T23:15:51,459 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1
+2022-01-05T23:15:51,459 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.2.14
+2022-01-05T23:15:51,460 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.config/org.apache.karaf.config.core/4.2.14
+2022-01-05T23:15:51,460 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.2.14
+2022-01-05T23:15:51,460 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.2.14
+2022-01-05T23:15:51,460 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.2.14
+2022-01-05T23:15:51,460 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.2.14
+2022-01-05T23:15:51,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.2.14
+2022-01-05T23:15:51,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.2.14
+2022-01-05T23:15:51,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.2.14
+2022-01-05T23:15:51,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.2.14
+2022-01-05T23:15:51,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.2.14
+2022-01-05T23:15:51,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.scr/org.apache.karaf.scr.state/4.2.14
+2022-01-05T23:15:51,462 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.2.14
+2022-01-05T23:15:51,462 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.2.14
+2022-01-05T23:15:51,462 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.2.14
+2022-01-05T23:15:51,462 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.2.14
+2022-01-05T23:15:51,462 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.2.14
+2022-01-05T23:15:51,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/4.2.14
+2022-01-05T23:15:51,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/4.2.14
+2022-01-05T23:15:51,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/4.2.14
+2022-01-05T23:15:51,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/4.2.14
+2022-01-05T23:15:51,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-websocket-api/1.1_1
+2022-01-05T23:15:51,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
+2022-01-05T23:15:51,464 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.sshd/sshd-osgi/2.5.1
+2022-01-05T23:15:51,464 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.sshd/sshd-scp/2.5.1
+2022-01-05T23:15:51,464 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.sshd/sshd-sftp/2.5.1
+2022-01-05T23:15:51,464 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.xbean/xbean-bundleutils/4.20
+2022-01-05T23:15:51,464 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.apache.xbean/xbean-finder/4.20
+2022-01-05T23:15:51,464 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-client/9.4.43.v20210629
+2022-01-05T23:15:51,465 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-continuation/9.4.43.v20210629
+2022-01-05T23:15:51,465 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-deploy/9.4.43.v20210629
+2022-01-05T23:15:51,465 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-http/9.4.43.v20210629
+2022-01-05T23:15:51,465 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-io/9.4.43.v20210629
+2022-01-05T23:15:51,465 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jaas/9.4.43.v20210629
+2022-01-05T23:15:51,465 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jmx/9.4.43.v20210629
+2022-01-05T23:15:51,466 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jndi/9.4.43.v20210629
+2022-01-05T23:15:51,466 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-plus/9.4.43.v20210629
+2022-01-05T23:15:51,466 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-proxy/9.4.43.v20210629
+2022-01-05T23:15:51,466 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-rewrite/9.4.43.v20210629
+2022-01-05T23:15:51,466 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-security/9.4.43.v20210629
+2022-01-05T23:15:51,466 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-jaspi/9.4.43.v20210629
+2022-01-05T23:15:51,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-server/9.4.43.v20210629
+2022-01-05T23:15:51,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-servlet/9.4.43.v20210629
+2022-01-05T23:15:51,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-servlets/9.4.43.v20210629
+2022-01-05T23:15:51,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-util/9.4.43.v20210629
+2022-01-05T23:15:51,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-util-ajax/9.4.43.v20210629
+2022-01-05T23:15:51,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-webapp/9.4.43.v20210629
+2022-01-05T23:15:51,468 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-api/9.4.43.v20210629
+2022-01-05T23:15:51,468 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-client/9.4.43.v20210629
+2022-01-05T23:15:51,468 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-common/9.4.43.v20210629
+2022-01-05T23:15:51,468 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.43.v20210629
+2022-01-05T23:15:51,468 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.43.v20210629
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-server/9.4.43.v20210629
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty.websocket/websocket-servlet/9.4.43.v20210629
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.eclipse.jetty/jetty-xml/9.4.43.v20210629
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-builtins/3.19.0
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-reader/3.19.0
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-terminal/3.19.0
+2022-01-05T23:15:51,469 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.jline/jline-terminal-jansi/3.19.0
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm/9.1
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-commons/9.1
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-tree/9.1
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-analysis/9.1
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ow2.asm/asm-util/9.1
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-api/7.2.29
+2022-01-05T23:15:51,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-jetty/7.2.29
+2022-01-05T23:15:51,471 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-runtime/7.2.29
+2022-01-05T23:15:51,471 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |       mvn:org.ops4j.pax.web/pax-web-spi/7.2.29
+2022-01-05T23:15:51,475 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Installing bundles:
+2022-01-05T23:15:51,475 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.bouncycastle/bcpkix-jdk15on/1.69
+2022-01-05T23:15:51,487 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.bouncycastle/bcprov-jdk15on/1.69
+2022-01-05T23:15:51,510 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.bouncycastle/bcutil-jdk15on/1.69
+2022-01-05T23:15:51,513 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:javax.annotation/javax.annotation-api/1.3
+2022-01-05T23:15:51,515 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:javax.servlet/javax.servlet-api/3.1.0
+2022-01-05T23:15:51,517 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.3.2
+2022-01-05T23:15:51,534 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.inventory/1.0.6
+2022-01-05T23:15:51,536 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.metatype/1.2.4
+2022-01-05T23:15:51,537 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.scr/2.1.30
+2022-01-05T23:15:51,540 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.webconsole.plugins.ds/2.1.0
+2022-01-05T23:15:51,542 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.10
+2022-01-05T23:15:51,543 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1
+2022-01-05T23:15:51,545 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1
+2022-01-05T23:15:51,546 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.2.14
+2022-01-05T23:15:51,547 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.config/org.apache.karaf.config.core/4.2.14
+2022-01-05T23:15:51,549 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.2.14
+2022-01-05T23:15:51,551 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.2.14
+2022-01-05T23:15:51,552 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.2.14
+2022-01-05T23:15:51,554 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.2.14
+2022-01-05T23:15:51,558 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.2.14
+2022-01-05T23:15:51,560 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.2.14
+2022-01-05T23:15:51,561 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.2.14
+2022-01-05T23:15:51,566 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.2.14
+2022-01-05T23:15:51,568 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.2.14
+2022-01-05T23:15:51,569 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.scr/org.apache.karaf.scr.state/4.2.14
+2022-01-05T23:15:51,570 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.2.14
+2022-01-05T23:15:51,572 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.2.14
+2022-01-05T23:15:51,573 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.2.14
+2022-01-05T23:15:51,576 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.2.14
+2022-01-05T23:15:51,578 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.2.14
+2022-01-05T23:15:51,580 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/4.2.14
+2022-01-05T23:15:51,583 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/4.2.14
+2022-01-05T23:15:51,585 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/4.2.14
+2022-01-05T23:15:51,586 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/4.2.14
+2022-01-05T23:15:51,588 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-websocket-api/1.1_1
+2022-01-05T23:15:51,589 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
+2022-01-05T23:15:51,592 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.sshd/sshd-osgi/2.5.1
+2022-01-05T23:15:51,598 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.sshd/sshd-scp/2.5.1
+2022-01-05T23:15:51,599 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.sshd/sshd-sftp/2.5.1
+2022-01-05T23:15:51,602 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.xbean/xbean-bundleutils/4.20
+2022-01-05T23:15:51,603 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.apache.xbean/xbean-finder/4.20
+2022-01-05T23:15:51,605 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-client/9.4.43.v20210629
+2022-01-05T23:15:51,607 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-continuation/9.4.43.v20210629
+2022-01-05T23:15:51,608 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-deploy/9.4.43.v20210629
+2022-01-05T23:15:51,610 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-http/9.4.43.v20210629
+2022-01-05T23:15:51,613 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-io/9.4.43.v20210629
+2022-01-05T23:15:51,615 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jaas/9.4.43.v20210629
+2022-01-05T23:15:51,617 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jmx/9.4.43.v20210629
+2022-01-05T23:15:51,618 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jndi/9.4.43.v20210629
+2022-01-05T23:15:51,620 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-plus/9.4.43.v20210629
+2022-01-05T23:15:51,622 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-proxy/9.4.43.v20210629
+2022-01-05T23:15:51,624 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-rewrite/9.4.43.v20210629
+2022-01-05T23:15:51,626 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-security/9.4.43.v20210629
+2022-01-05T23:15:51,628 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-jaspi/9.4.43.v20210629
+2022-01-05T23:15:51,629 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-server/9.4.43.v20210629
+2022-01-05T23:15:51,632 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-servlet/9.4.43.v20210629
+2022-01-05T23:15:51,634 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-servlets/9.4.43.v20210629
+2022-01-05T23:15:51,636 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-util/9.4.43.v20210629
+2022-01-05T23:15:51,638 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-util-ajax/9.4.43.v20210629
+2022-01-05T23:15:51,639 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-webapp/9.4.43.v20210629
+2022-01-05T23:15:51,641 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-api/9.4.43.v20210629
+2022-01-05T23:15:51,643 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-client/9.4.43.v20210629
+2022-01-05T23:15:51,645 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-common/9.4.43.v20210629
+2022-01-05T23:15:51,647 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.43.v20210629
+2022-01-05T23:15:51,650 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.43.v20210629
+2022-01-05T23:15:51,652 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-server/9.4.43.v20210629
+2022-01-05T23:15:51,653 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty.websocket/websocket-servlet/9.4.43.v20210629
+2022-01-05T23:15:51,655 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.eclipse.jetty/jetty-xml/9.4.43.v20210629
+2022-01-05T23:15:51,656 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-builtins/3.19.0
+2022-01-05T23:15:51,658 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-reader/3.19.0
+2022-01-05T23:15:51,685 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-terminal/3.19.0
+2022-01-05T23:15:51,687 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.jline/jline-terminal-jansi/3.19.0
+2022-01-05T23:15:51,688 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm/9.1
+2022-01-05T23:15:51,690 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-commons/9.1
+2022-01-05T23:15:51,691 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-tree/9.1
+2022-01-05T23:15:51,692 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-analysis/9.1
+2022-01-05T23:15:51,693 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ow2.asm/asm-util/9.1
+2022-01-05T23:15:51,694 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-api/7.2.29
+2022-01-05T23:15:51,696 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-jetty/7.2.29
+2022-01-05T23:15:51,700 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-runtime/7.2.29
+2022-01-05T23:15:51,702 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-spi/7.2.29
+2022-01-05T23:15:51,862 | INFO  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.karaftest.bundleapi / 0.9.0.SNAPSHOT
+2022-01-05T23:15:51,864 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.karaftest.bundleimpl / 0.9.0.SNAPSHOT
+2022-01-05T23:15:51,928 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Starting bundles:
+2022-01-05T23:15:51,930 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.deployer.features/4.2.14
+2022-01-05T23:15:51,987 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   javax.servlet-api/3.1.0
+2022-01-05T23:15:51,990 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-api/7.2.29
+2022-01-05T23:15:51,990 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-spi/7.2.29
+2022-01-05T23:15:51,991 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.geronimo.specs.geronimo-jta_1.1_spec/1.1.1
+2022-01-05T23:15:51,991 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.aries.spifly.dynamic.bundle/1.3.2
+2022-01-05T23:15:51,991 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Started bundle: file:/opt/karaf/deploy2/bundleimpl-0.9.0-SNAPSHOT.jar
+2022-01-05T23:15:51,990 | WARN  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Error while starting bundle: file:/opt/karaf/deploy/bundleapi-0.9.0-SNAPSHOT.jar
+org.osgi.framework.BundleException: Unable to acquire global lock for resolve. Unresolved requirements: []
 	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4149) ~[?:?]
 	at org.apache.felix.framework.Felix.startBundle(Felix.java:2119) ~[?:?]
 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998) ~[?:?]
@@ -195,137 +195,134 @@ org.osgi.framework.BundleException: Unable to resolve de.averbis.integration.kar
 	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:520) [!/:3.7.2]
 	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:365) [!/:3.7.2]
 	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:316) [!/:3.7.2]
-2022-01-05T22:09:42,675 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.features/4.2.14
-2022-01-05T22:09:42,684 | INFO  | features-3-thread-1 | FeaturesPlugin                   | 43 - org.apache.karaf.webconsole.features - 4.2.14 | Features plugin activated
-2022-01-05T22:09:42,685 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.aries.spifly.dynamic.bundle/1.3.2
-2022-01-05T22:09:42,744 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.servicemix.bundles.javax-websocket-api/1.1.0.1
-2022-01-05T22:09:42,746 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.util/9.4.43.v20210629
-2022-01-05T22:09:42,748 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.jmx/9.4.43.v20210629
-2022-01-05T22:09:42,749 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.io/9.4.43.v20210629
-2022-01-05T22:09:42,750 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.http/9.4.43.v20210629
-2022-01-05T22:09:42,791 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.client/9.4.43.v20210629
-2022-01-05T22:09:42,792 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.server/9.4.43.v20210629
-2022-01-05T22:09:42,793 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.geronimo.specs.geronimo-jaspic_1.0_spec/1.1.0
-2022-01-05T22:09:42,796 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.security.jaspi/9.4.43.v20210629
-2022-01-05T22:09:42,805 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.security/9.4.43.v20210629
-2022-01-05T22:09:42,807 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.util.ajax/9.4.43.v20210629
-2022-01-05T22:09:42,808 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.servlet/9.4.43.v20210629
-2022-01-05T22:09:42,808 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.common/9.4.43.v20210629
-2022-01-05T22:09:42,823 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.api/9.4.43.v20210629
-2022-01-05T22:09:42,825 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.xml/9.4.43.v20210629
-2022-01-05T22:09:42,826 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.client/9.4.43.v20210629
-2022-01-05T22:09:42,827 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.javax.websocket/9.4.43.v20210629
-2022-01-05T22:09:42,833 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.servlet/9.4.43.v20210629
-2022-01-05T22:09:42,834 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.server/9.4.43.v20210629
-2022-01-05T22:09:42,837 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.javax.websocket.server/9.4.43.v20210629
-2022-01-05T22:09:42,842 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.jline.reader/3.19.0
-2022-01-05T22:09:42,843 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.jline.builtins/3.19.0
-2022-01-05T22:09:42,843 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.shell.core/4.2.14
-2022-01-05T22:09:42,879 | INFO  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Started bundle: file:/opt/karaf/deploy/bundleapi-0.9.0-SNAPSHOT.jar
-2022-01-05T22:09:42,891 | INFO  | features-3-thread-1 | Activator                        | 39 - org.apache.karaf.shell.core - 4.2.14 | Not starting local console. To activate set karaf.startLocalConsole=true
-2022-01-05T22:09:42,892 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-spi/7.2.29
-2022-01-05T22:09:42,893 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.scr/2.1.30
-2022-01-05T22:09:42,926 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   javax.annotation-api/1.3.0
-2022-01-05T22:09:42,927 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.jaas/9.4.43.v20210629
-2022-01-05T22:09:42,928 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.rewrite/9.4.43.v20210629
-2022-01-05T22:09:42,929 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.jndi/9.4.43.v20210629
-2022-01-05T22:09:42,929 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.webapp/9.4.43.v20210629
-2022-01-05T22:09:42,930 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.deploy/9.4.43.v20210629
-2022-01-05T22:09:42,931 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.proxy/9.4.43.v20210629
-2022-01-05T22:09:42,932 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.geronimo.specs.geronimo-jta_1.1_spec/1.1.1
-2022-01-05T22:09:42,932 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.plus/9.4.43.v20210629
-2022-01-05T22:09:42,933 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.continuation/9.4.43.v20210629
-2022-01-05T22:09:42,934 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.servlets/9.4.43.v20210629
-2022-01-05T22:09:42,934 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-jetty/7.2.29
-2022-01-05T22:09:42,971 | INFO  | features-3-thread-1 | log                              | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Logging initialized @3496ms to org.eclipse.jetty.util.log.Slf4jLog
-2022-01-05T22:09:42,981 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-runtime/7.2.29
-2022-01-05T22:09:42,990 | INFO  | features-3-thread-1 | Activator                        | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | EventAdmin support is not available, no servlet events will be posted!
-2022-01-05T22:09:42,992 | INFO  | features-3-thread-1 | Activator                        | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | LogService support enabled, log events will be created.
-2022-01-05T22:09:42,993 | INFO  | features-3-thread-1 | Activator                        | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | Pax Web started
-2022-01-05T22:09:43,062 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.http.core/4.2.14
-2022-01-05T22:09:43,093 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Command registration delayed for bundle org.apache.karaf.http.core/4.2.14. Missing service: [org.apache.karaf.http.core.ProxyService, org.apache.karaf.http.core.ServletService]
-2022-01-05T22:09:43,094 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.http/4.2.14
-2022-01-05T22:09:43,101 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.webconsole.http/4.2.14
-2022-01-05T22:09:43,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   bcprov/1.69.0
-2022-01-05T22:09:43,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   bcutil/1.69.0
-2022-01-05T22:09:43,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   bcpkix/1.69.0
-2022-01-05T22:09:43,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.sshd.osgi/2.5.1
-2022-01-05T22:09:43,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.sshd.sftp/2.5.1
-2022-01-05T22:09:43,107 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.jaas.config/4.2.14
-2022-01-05T22:09:43,117 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.jaas.modules/4.2.14
-2022-01-05T22:09:43,127 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.inventory/1.0.6
-2022-01-05T22:09:43,236 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.webconsole.plugins.ds/2.1.0
-2022-01-05T22:09:43,245 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11.1
-2022-01-05T22:09:43,245 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.sshd.scp/2.5.1
-2022-01-05T22:09:43,246 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.shell.ssh/4.2.14
-2022-01-05T22:09:43,281 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.14. Missing service: [org.apache.sshd.server.SshServer]
-2022-01-05T22:09:43,281 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.bundle.core/4.2.14
-2022-01-05T22:09:43,321 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.bundle.core/4.2.14
-2022-01-05T22:09:43,322 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.diagnostic.core/4.2.14
-2022-01-05T22:09:43,332 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.2.14
-2022-01-05T22:09:43,333 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.system.core/4.2.14
-2022-01-05T22:09:43,347 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.system.core/4.2.14
-2022-01-05T22:09:43,347 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.jaas.command/4.2.14
-2022-01-05T22:09:43,365 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.jaas.command/4.2.14
-2022-01-05T22:09:43,366 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.14
-2022-01-05T22:09:43,369 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.14
-2022-01-05T22:09:43,371 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.package.core/4.2.14
-2022-01-05T22:09:43,382 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.package.core/4.2.14
-2022-01-05T22:09:43,383 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.webconsole.plugins.memoryusage/1.0.10
-2022-01-05T22:09:43,388 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Storing Memory Dumps in /opt/karaf/data/cache/bundle22/data/dumps
-2022-01-05T22:09:43,390 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
-2022-01-05T22:09:43,390 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
-2022-01-05T22:09:43,391 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Interval to 21600 seconds
-2022-01-05T22:09:43,393 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | No ALPN class available
-2022-01-05T22:09:43,393 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | HTTP/2 not available, creating standard ServerConnector for Http
-2022-01-05T22:09:43,397 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
-2022-01-05T22:09:43,397 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.features.command/4.2.14
-2022-01-05T22:09:43,398 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
-2022-01-05T22:09:43,398 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Interval to 21600 seconds
-2022-01-05T22:09:43,399 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Storing Memory Dumps in /opt/karaf/data/cache/bundle22/data/dumps
-2022-01-05T22:09:43,418 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.features.command/4.2.14
-2022-01-05T22:09:43,419 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.shell.commands/4.2.14
-2022-01-05T22:09:43,427 | INFO  | paxweb-config-1-thread-1 | JettyServerImpl                  | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | Pax Web available at [0.0.0.0]:[8181]
-2022-01-05T22:09:43,434 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.shell.commands/4.2.14
-2022-01-05T22:09:43,435 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.log.core/4.2.14
-2022-01-05T22:09:43,438 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | Binding bundle: [org.apache.karaf.webconsole.console [42]] to http service
-2022-01-05T22:09:43,448 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.log.core/4.2.14
-2022-01-05T22:09:43,450 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.scr.state/4.2.14
-2022-01-05T22:09:43,459 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.scr.state/4.2.14
-2022-01-05T22:09:43,459 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.gogo/4.2.14
-2022-01-05T22:09:43,465 | INFO  | activator-1-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.14
-2022-01-05T22:09:43,467 | INFO  | features-3-thread-1 | GogoPlugin                       | 44 - org.apache.karaf.webconsole.gogo - 4.2.14 | Gogo plugin activated
-2022-01-05T22:09:43,468 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.service.core/4.2.14
-2022-01-05T22:09:43,477 | INFO  | activator-1-thread-1 | DefaultIoServiceFactoryFactory   | 48 - org.apache.sshd.osgi - 2.5.1 | No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
-2022-01-05T22:09:43,479 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.service.core/4.2.14
-2022-01-05T22:09:43,480 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | will add org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer to ServletContainerInitializers
-2022-01-05T22:09:43,480 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.config.core/4.2.14
-2022-01-05T22:09:43,503 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.config.core/4.2.14
-2022-01-05T22:09:43,540 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm/9.1.0
-2022-01-05T22:09:43,541 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.tree/9.1.0
-2022-01-05T22:09:43,542 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.tree.analysis/9.1.0
-2022-01-05T22:09:43,542 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.util/9.1.0
-2022-01-05T22:09:43,543 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.commons/9.1.0
-2022-01-05T22:09:43,544 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.xbean.bundleutils/4.20.0
-2022-01-05T22:09:43,545 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.xbean.finder/4.20.0
-2022-01-05T22:09:43,547 | INFO  | features-3-thread-1 | Activator                        | 27 - org.apache.karaf.deployer.features - 4.2.14 | Deployment finished. Registering FeatureDeploymentListener
-2022-01-05T22:09:43,584 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Done.
-2022-01-05T22:09:43,783 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | added ServletContainerInitializer: org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer
-2022-01-05T22:09:43,783 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | will add org.eclipse.jetty.websocket.server.NativeWebSocketServletContainerInitializer to ServletContainerInitializers
-2022-01-05T22:09:43,785 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | added ServletContainerInitializer: org.eclipse.jetty.websocket.server.NativeWebSocketServletContainerInitializer
-2022-01-05T22:09:43,849 | INFO  | paxweb-config-1-thread-1 | HttpServiceContext               | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | registering context DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [42], contextID=custom], with context-name: 
-2022-01-05T22:09:43,899 | INFO  | paxweb-config-1-thread-1 | WebSocketServerFactory           | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | No DecoratedObjectFactory provided, using new org.eclipse.jetty.util.DecoratedObjectFactory[decorators=1]
-2022-01-05T22:09:43,977 | INFO  | paxweb-config-1-thread-1 | session                          | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | DefaultSessionIdManager workerName=node0
-2022-01-05T22:09:43,978 | INFO  | paxweb-config-1-thread-1 | session                          | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | No SessionScavenger set, using defaults
-2022-01-05T22:09:43,979 | INFO  | paxweb-config-1-thread-1 | session                          | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | node0 Scavenging every 600000ms
-2022-01-05T22:09:44,003 | INFO  | paxweb-config-1-thread-1 | ContextHandler                   | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Started HttpServiceContext{httpContext=DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [42], contextID=custom]}
-2022-01-05T22:09:44,010 | INFO  | paxweb-config-1-thread-1 | Server                           | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_312-b07
-2022-01-05T22:09:44,057 | INFO  | paxweb-config-1-thread-1 | AbstractConnector                | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Started default@2893b0f3{HTTP/1.1, (http/1.1)}{0.0.0.0:8181}
-2022-01-05T22:09:44,058 | INFO  | paxweb-config-1-thread-1 | Server                           | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Started @4583ms
-2022-01-05T22:09:44,061 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | Binding bundle: [org.apache.karaf.http.core [30]] to http service
-2022-01-05T22:09:44,070 | INFO  | activator-1-thread-2 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.http.core/4.2.14
-2022-01-05T22:09:44,075 | INFO  | activator-1-thread-2 | HttpPlugin                       | 45 - org.apache.karaf.webconsole.http - 4.2.14 | Http plugin activated
-2022-01-05T22:09:45,430 | INFO  | sshd-SshServer[32bbabc9](port=8101)-nio2-thread-2 | OpenSSHKeyPairProvider           | 40 - org.apache.karaf.shell.ssh - 4.2.14 | Creating ssh server private key at /opt/karaf/etc/host.key
-2022-01-05T22:09:45,432 | INFO  | sshd-SshServer[32bbabc9](port=8101)-nio2-thread-2 | OpenSSHKeyPairGenerator          | 40 - org.apache.karaf.shell.ssh - 4.2.14 | generateKeyPair(RSA) generating host key - size=2048
-2022-01-05T22:09:45,981 | WARN  | sshd-SshServer[32bbabc9](port=8101)-nio2-thread-2 | EventAdminAuditLoginModule       | 33 - org.apache.karaf.jaas.modules - 4.2.14 | Unable to send security auditing EventAdmin events: java.lang.NoClassDefFoundError: org/osgi/service/event/EventAdmin
-2022-01-05T22:09:46,005 | INFO  | sshd-SshServer[32bbabc9](port=8101)-nio2-thread-2 | ServerSessionImpl                | 48 - org.apache.sshd.osgi - 2.5.1 | Session karaf@/127.0.0.1:58436 authenticated
+2022-01-05T23:15:52,043 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.util/9.4.43.v20210629
+2022-01-05T23:15:52,045 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.jmx/9.4.43.v20210629
+2022-01-05T23:15:52,046 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.io/9.4.43.v20210629
+2022-01-05T23:15:52,046 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.http/9.4.43.v20210629
+2022-01-05T23:15:52,083 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.server/9.4.43.v20210629
+2022-01-05T23:15:52,084 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.jndi/9.4.43.v20210629
+2022-01-05T23:15:52,085 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.geronimo.specs.geronimo-jaspic_1.0_spec/1.1.0
+2022-01-05T23:15:52,088 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.security.jaspi/9.4.43.v20210629
+2022-01-05T23:15:52,097 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.security/9.4.43.v20210629
+2022-01-05T23:15:52,098 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.util.ajax/9.4.43.v20210629
+2022-01-05T23:15:52,099 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.servlet/9.4.43.v20210629
+2022-01-05T23:15:52,100 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.xml/9.4.43.v20210629
+2022-01-05T23:15:52,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.webapp/9.4.43.v20210629
+2022-01-05T23:15:52,101 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.plus/9.4.43.v20210629
+2022-01-05T23:15:52,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.client/9.4.43.v20210629
+2022-01-05T23:15:52,102 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   bcprov/1.69.0
+2022-01-05T23:15:52,103 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   bcutil/1.69.0
+2022-01-05T23:15:52,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   bcpkix/1.69.0
+2022-01-05T23:15:52,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.sshd.osgi/2.5.1
+2022-01-05T23:15:52,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.sshd.scp/2.5.1
+2022-01-05T23:15:52,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.jline.terminal/3.19.0
+2022-01-05T23:15:52,109 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.jline.reader/3.19.0
+2022-01-05T23:15:52,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.jline.builtins/3.19.0
+2022-01-05T23:15:52,110 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.shell.core/4.2.14
+2022-01-05T23:15:52,153 | INFO  | features-3-thread-1 | Activator                        | 39 - org.apache.karaf.shell.core - 4.2.14 | Not starting local console. To activate set karaf.startLocalConsole=true
+2022-01-05T23:15:52,154 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.diagnostic.core/4.2.14
+2022-01-05T23:15:52,173 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.2.14
+2022-01-05T23:15:52,174 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.bundle.core/4.2.14
+2022-01-05T23:15:52,204 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.bundle.core/4.2.14
+2022-01-05T23:15:52,205 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.metatype/1.2.4
+2022-01-05T23:15:52,210 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.scr/2.1.30
+2022-01-05T23:15:52,239 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.scr.state/4.2.14
+2022-01-05T23:15:52,246 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.scr.state/4.2.14
+2022-01-05T23:15:52,247 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.console/4.2.14
+2022-01-05T23:15:52,323 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.features/4.2.14
+2022-01-05T23:15:52,332 | INFO  | features-3-thread-1 | FeaturesPlugin                   | 43 - org.apache.karaf.webconsole.features - 4.2.14 | Features plugin activated
+2022-01-05T23:15:52,333 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.sshd.sftp/2.5.1
+2022-01-05T23:15:52,334 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.rewrite/9.4.43.v20210629
+2022-01-05T23:15:52,335 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.api/9.4.43.v20210629
+2022-01-05T23:15:52,336 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.common/9.4.43.v20210629
+2022-01-05T23:15:52,350 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.servlets/9.4.43.v20210629
+2022-01-05T23:15:52,351 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.inventory/1.0.6
+2022-01-05T23:15:52,379 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.webconsole.plugins.ds/2.1.0
+2022-01-05T23:15:52,386 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.servlet/9.4.43.v20210629
+2022-01-05T23:15:52,386 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.server/9.4.43.v20210629
+2022-01-05T23:15:52,388 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.javax.websocket.server/9.4.43.v20210629
+2022-01-05T23:15:52,395 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.servicemix.bundles.javax-websocket-api/1.1.0.1
+2022-01-05T23:15:52,396 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.client/9.4.43.v20210629
+2022-01-05T23:15:52,396 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.websocket.javax.websocket/9.4.43.v20210629
+2022-01-05T23:15:52,398 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.felix.webconsole.plugins.memoryusage/1.0.10
+2022-01-05T23:15:52,402 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Storing Memory Dumps in /opt/karaf/data/cache/bundle22/data/dumps
+2022-01-05T23:15:52,403 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
+2022-01-05T23:15:52,404 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
+2022-01-05T23:15:52,404 | INFO  | features-3-thread-1 | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Interval to 21600 seconds
+2022-01-05T23:15:52,409 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.jaas.config/4.2.14
+2022-01-05T23:15:52,409 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
+2022-01-05T23:15:52,409 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
+2022-01-05T23:15:52,410 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Setting Automatic Memory Dump Interval to 21600 seconds
+2022-01-05T23:15:52,410 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 22 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.10 | Storing Memory Dumps in /opt/karaf/data/cache/bundle22/data/dumps
+2022-01-05T23:15:52,418 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.jaas.modules/4.2.14
+2022-01-05T23:15:52,426 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   javax.annotation-api/1.3.0
+2022-01-05T23:15:52,427 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.jaas/9.4.43.v20210629
+2022-01-05T23:15:52,427 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.continuation/9.4.43.v20210629
+2022-01-05T23:15:52,428 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.deploy/9.4.43.v20210629
+2022-01-05T23:15:52,429 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.eclipse.jetty.proxy/9.4.43.v20210629
+2022-01-05T23:15:52,430 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-jetty/7.2.29
+2022-01-05T23:15:52,463 | INFO  | features-3-thread-1 | log                              | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Logging initialized @3739ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-01-05T23:15:52,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-runtime/7.2.29
+2022-01-05T23:15:52,477 | INFO  | features-3-thread-1 | Activator                        | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | EventAdmin support is not available, no servlet events will be posted!
+2022-01-05T23:15:52,478 | INFO  | features-3-thread-1 | Activator                        | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | LogService support enabled, log events will be created.
+2022-01-05T23:15:52,479 | INFO  | features-3-thread-1 | Activator                        | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | Pax Web started
+2022-01-05T23:15:52,627 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.http.core/4.2.14
+2022-01-05T23:15:52,641 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Command registration delayed for bundle org.apache.karaf.http.core/4.2.14. Missing service: [org.apache.karaf.http.core.ProxyService, org.apache.karaf.http.core.ServletService]
+2022-01-05T23:15:52,642 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.jaas.command/4.2.14
+2022-01-05T23:15:52,660 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.jaas.command/4.2.14
+2022-01-05T23:15:52,662 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.14
+2022-01-05T23:15:52,664 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.14
+2022-01-05T23:15:52,666 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.gogo/4.2.14
+2022-01-05T23:15:52,674 | INFO  | features-3-thread-1 | GogoPlugin                       | 44 - org.apache.karaf.webconsole.gogo - 4.2.14 | Gogo plugin activated
+2022-01-05T23:15:52,675 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.service.core/4.2.14
+2022-01-05T23:15:52,686 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.service.core/4.2.14
+2022-01-05T23:15:52,687 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.webconsole.http/4.2.14
+2022-01-05T23:15:52,694 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.webconsole.http/4.2.14
+2022-01-05T23:15:52,694 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11.1
+2022-01-05T23:15:52,695 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.features.command/4.2.14
+2022-01-05T23:15:52,716 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.features.command/4.2.14
+2022-01-05T23:15:52,717 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.system.core/4.2.14
+2022-01-05T23:15:52,733 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.system.core/4.2.14
+2022-01-05T23:15:52,734 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.config.core/4.2.14
+2022-01-05T23:15:52,757 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.config.core/4.2.14
+2022-01-05T23:15:52,792 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.log.core/4.2.14
+2022-01-05T23:15:52,806 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.log.core/4.2.14
+2022-01-05T23:15:52,808 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.shell.commands/4.2.14
+2022-01-05T23:15:52,824 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.shell.commands/4.2.14
+2022-01-05T23:15:52,825 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.shell.ssh/4.2.14
+2022-01-05T23:15:52,862 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | No ALPN class available
+2022-01-05T23:15:52,862 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | HTTP/2 not available, creating standard ServerConnector for Http
+2022-01-05T23:15:52,870 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.14. Missing service: [org.apache.sshd.server.SshServer]
+2022-01-05T23:15:52,871 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.package.core/4.2.14
+2022-01-05T23:15:52,883 | INFO  | features-3-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.package.core/4.2.14
+2022-01-05T23:15:52,884 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm/9.1.0
+2022-01-05T23:15:52,886 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.tree/9.1.0
+2022-01-05T23:15:52,887 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.commons/9.1.0
+2022-01-05T23:15:52,888 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.tree.analysis/9.1.0
+2022-01-05T23:15:52,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.objectweb.asm.util/9.1.0
+2022-01-05T23:15:52,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.xbean.bundleutils/4.20.0
+2022-01-05T23:15:52,899 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.xbean.finder/4.20.0
+2022-01-05T23:15:52,901 | INFO  | features-3-thread-1 | Activator                        | 27 - org.apache.karaf.deployer.features - 4.2.14 | Deployment finished. Registering FeatureDeploymentListener
+2022-01-05T23:15:52,907 | INFO  | paxweb-config-1-thread-1 | JettyServerImpl                  | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | Pax Web available at [0.0.0.0]:[8181]
+2022-01-05T23:15:52,921 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | Binding bundle: [org.apache.karaf.webconsole.console [42]] to http service
+2022-01-05T23:15:52,955 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Done.
+2022-01-05T23:15:52,965 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | will add org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer to ServletContainerInitializers
+2022-01-05T23:15:53,070 | INFO  | activator-1-thread-1 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.14
+2022-01-05T23:15:53,082 | INFO  | activator-1-thread-1 | DefaultIoServiceFactoryFactory   | 48 - org.apache.sshd.osgi - 2.5.1 | No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2022-01-05T23:15:53,249 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | added ServletContainerInitializer: org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer
+2022-01-05T23:15:53,249 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | will add org.eclipse.jetty.websocket.server.NativeWebSocketServletContainerInitializer to ServletContainerInitializers
+2022-01-05T23:15:53,251 | INFO  | paxweb-config-1-thread-1 | ServletContainerInitializerScanner | 89 - org.ops4j.pax.web.pax-web-api - 7.2.29 | added ServletContainerInitializer: org.eclipse.jetty.websocket.server.NativeWebSocketServletContainerInitializer
+2022-01-05T23:15:53,311 | INFO  | paxweb-config-1-thread-1 | HttpServiceContext               | 90 - org.ops4j.pax.web.pax-web-jetty - 7.2.29 | registering context DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [42], contextID=custom], with context-name: 
+2022-01-05T23:15:53,375 | INFO  | paxweb-config-1-thread-1 | WebSocketServerFactory           | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | No DecoratedObjectFactory provided, using new org.eclipse.jetty.util.DecoratedObjectFactory[decorators=1]
+2022-01-05T23:15:53,456 | INFO  | paxweb-config-1-thread-1 | session                          | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | DefaultSessionIdManager workerName=node0
+2022-01-05T23:15:53,456 | INFO  | paxweb-config-1-thread-1 | session                          | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | No SessionScavenger set, using defaults
+2022-01-05T23:15:53,457 | INFO  | paxweb-config-1-thread-1 | session                          | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | node0 Scavenging every 600000ms
+2022-01-05T23:15:53,483 | INFO  | paxweb-config-1-thread-1 | ContextHandler                   | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Started HttpServiceContext{httpContext=DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [42], contextID=custom]}
+2022-01-05T23:15:53,490 | INFO  | paxweb-config-1-thread-1 | Server                           | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_312-b07
+2022-01-05T23:15:53,543 | INFO  | paxweb-config-1-thread-1 | AbstractConnector                | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Started default@6f8d2fc1{HTTP/1.1, (http/1.1)}{0.0.0.0:8181}
+2022-01-05T23:15:53,544 | INFO  | paxweb-config-1-thread-1 | Server                           | 69 - org.eclipse.jetty.util - 9.4.43.v20210629 | Started @4820ms
+2022-01-05T23:15:53,547 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 91 - org.ops4j.pax.web.pax-web-runtime - 7.2.29 | Binding bundle: [org.apache.karaf.http.core [30]] to http service
+2022-01-05T23:15:53,555 | INFO  | activator-1-thread-2 | CommandExtension                 | 39 - org.apache.karaf.shell.core - 4.2.14 | Registering commands for bundle org.apache.karaf.http.core/4.2.14
+2022-01-05T23:15:53,559 | INFO  | activator-1-thread-2 | HttpPlugin                       | 45 - org.apache.karaf.webconsole.http - 4.2.14 | Http plugin activated
+2022-01-05T23:16:02,782 | WARN  | sshd-SshServer[3d5441ad](port=8101)-nio2-thread-1 | EventAdminAuditLoginModule       | 33 - org.apache.karaf.jaas.modules - 4.2.14 | Unable to send security auditing EventAdmin events: java.lang.NoClassDefFoundError: org/osgi/service/event/EventAdmin
+2022-01-05T23:16:02,814 | INFO  | sshd-SshServer[3d5441ad](port=8101)-nio2-thread-1 | ServerSessionImpl                | 48 - org.apache.sshd.osgi - 2.5.1 | Session karaf@/127.0.0.1:58512 authenticated

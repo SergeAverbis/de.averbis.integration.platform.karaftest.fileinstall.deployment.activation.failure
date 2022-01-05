@@ -4,13 +4,8 @@
 
 package de.averbis.integration.karaftest.bundleimpl;
 
-import de.averbis.integration.karaftest.bundleapi.BundleApi;
-import org.osgi.service.component.annotations.Component;
 
-@Component
-public class BundleImpl implements BundleApi {
+public class BundleImpl {
 
-	public String api() {
-		return "My Name is "+getClass().getSimpleName()+" James "+getClass().getName();
-	}
+	
 }

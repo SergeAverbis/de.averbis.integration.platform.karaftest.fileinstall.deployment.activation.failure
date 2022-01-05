@@ -54,7 +54,6 @@
 		<module>bundle-parent</module>
 		<module>bundleapi</module>
 		<module>bundleimpl</module>
-		<module>bundleclient</module>
 		<module>distribution</module>
 	</modules>
 	<build>

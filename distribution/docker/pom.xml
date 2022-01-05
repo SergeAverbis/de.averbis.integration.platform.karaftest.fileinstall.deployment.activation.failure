@@ -22,23 +22,8 @@
 
 
 	<modules>
+		<module>karaftest-base-distribution-docker</module>
 		<module>karaftest-distribution-docker</module>
 		<module>compose-docker</module>
 	</modules>
-
-
-	<profiles>
-		<profile>
-			<id>
-				base
-			</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<modules>
-				<module>karaftest-base-distribution-docker</module>
-			</modules>
-
-		</profile>
-	</profiles>
 </project>

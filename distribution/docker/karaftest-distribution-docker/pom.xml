@@ -17,12 +17,6 @@
 		<karaftest-output-dir>${project.build.directory}/${karaftest-output-subdir}</karaftest-output-dir>
 		<karaf-output-subdir>karaf</karaf-output-subdir>
 		<karaf-output-dir>${karaftest-output-dir}/${karaf-output-subdir}</karaf-output-dir>
-		<bundle0-artifactId>bundle0</bundle0-artifactId>
-		<bundle1-artifactId>bundle1</bundle1-artifactId>
-		<bundle2-artifactId>bundle2</bundle2-artifactId>
-		<bundle3-artifactId>bundle3</bundle3-artifactId>
-		<bundle4-artifactId>bundle4</bundle4-artifactId>
-		<bundle5-artifactId>bundle5</bundle5-artifactId>
 		<bundleapi-artifactId>bundleapi</bundleapi-artifactId>
 		<bundleimpl-artifactId>bundleimpl</bundleimpl-artifactId>
 		<bundleclient-artifactId>bundleclient</bundleclient-artifactId>
@@ -33,36 +27,6 @@
 			<artifactId>karaftest-base-distribution-docker</artifactId>
 			<version>${project.version}</version>
 			<type>pom</type>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>${bundle0-artifactId}</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>${bundle1-artifactId}</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>${bundle2-artifactId}</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>${bundle3-artifactId}</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>${bundle4-artifactId}</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>${bundle5-artifactId}</artifactId>
-			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>

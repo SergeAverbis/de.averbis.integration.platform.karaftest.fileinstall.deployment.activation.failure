@@ -49,20 +49,34 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.2.0</version>
 				<executions>
 					<execution>
 						<phase>process-resources</phase>
 						<goals><goal>copy-resources</goal></goals>
 						<configuration>
-   							<outputDirectory>${project.build.directory}</outputDirectory>
+							<outputDirectory>${karaftest-output-dir}</outputDirectory>
 							<resources>
-								 <resource>
-									 <directory>${project.basedir}/src/image</directory>
-									 	<filtering>false</filtering>
-								 </resource>
+								<resource>
+									<directory>${project.basedir}/src/image</directory>
+									<filtering>false</filtering>
+								</resource>
 							</resources>
-
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-dockerfile-into-build-directory</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/Dockerfile</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
 						</configuration>
 					</execution>
 				</executions>
@@ -102,46 +116,7 @@
 									<version>${project.version}</version>
 								</artifactItem>
 							</artifactItems>
-							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
-						</configuration>
-					</execution>
-					<execution>
-						<id>copy-bundleclient</id>
-						<phase>process-resources</phase>
-						<goals>
-							<goal>copy</goal>
-						</goals>
-						<configuration>
-							<artifactItems>
-								<artifactItem>
-									<groupId>${project.groupId}</groupId>
-									<artifactId>${bundleclient-artifactId}</artifactId>
-									<version>${project.version}</version>
-								</artifactItem>
-							</artifactItems>
-							<outputDirectory>${karaf-output-dir}/deploy</outputDirectory>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>copy-dockerfile-into-build-directory</id>
-						<phase>generate-resources</phase>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>${project.build.directory}</outputDirectory>
-							<resources>
-								<resource>
-									<directory>src/Dockerfile</directory>
-									<filtering>true</filtering>
-								</resource>
-							</resources>
+							<outputDirectory>${karaf-output-dir}/deploy2</outputDirectory>
 						</configuration>
 					</execution>
 				</executions>

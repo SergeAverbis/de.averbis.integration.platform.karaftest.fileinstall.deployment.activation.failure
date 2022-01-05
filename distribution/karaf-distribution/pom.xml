@@ -95,9 +95,7 @@
 						<feature>ssh</feature>
 						<feature>scr</feature>
 						<feature>system</feature>
-						<feature>war</feature>
 						<feature>webconsole</feature>
-						<feature>kar</feature>
 					</bootFeatures>
 					<archiveZip>true</archiveZip>
 					<archiveTarGz>false</archiveTarGz>

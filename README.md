@@ -10,8 +10,8 @@ run the following commands
 >
 > docker exec -it karaftest_karaftest_1 client list | grep bundle
 >
-xx │ Resolved │ 80 │ 0.9.0.SNAPSHOT │ bundleimpl<br>
-yy │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleapi<br>
+xx │ Resolved │ 80 │ 1.0.0 │ bundleimpl<br>
+yy │ Active │ 80 │ 1.0.0 │ bundleapi<br>
 ====> the bundle 'bundleimpl' is not Active<br>
 [karaf.log](./karaf.log)
 
@@ -24,8 +24,8 @@ OR
 THEN
 > docker exec -it karaftest_karaftest_1 client list | grep bundle
 >
-xx │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleimpl<br>
-xx │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleapi<br>
+xx │ Active │ 80 │ 1.0.0 │ bundleimpl<br>
+xx │ Active │ 80 │ 1.0.0 │ bundleapi<br>
 ====> the bundle 'bundleimpl' is now Active<br>
 
 if 'bundleimpl' is activated then run the following command until you see the result above

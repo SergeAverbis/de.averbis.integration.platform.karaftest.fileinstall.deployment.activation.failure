@@ -175,8 +175,8 @@ INFO: Lock acquired. Setting startlevel to 100
 2022-01-05T23:15:51,696 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-jetty/7.2.29
 2022-01-05T23:15:51,700 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-runtime/7.2.29
 2022-01-05T23:15:51,702 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   mvn:org.ops4j.pax.web/pax-web-spi/7.2.29
-2022-01-05T23:15:51,862 | INFO  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.karaftest.bundleapi / 0.9.0.SNAPSHOT
-2022-01-05T23:15:51,864 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.karaftest.bundleimpl / 0.9.0.SNAPSHOT
+2022-01-05T23:15:51,862 | INFO  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.platform.karaftest.bundleapi / 0.9.0.SNAPSHOT
+2022-01-05T23:15:51,864 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Installing bundle de.averbis.integration.platform.karaftest.bundleimpl / 0.9.0.SNAPSHOT
 2022-01-05T23:15:51,928 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 | Starting bundles:
 2022-01-05T23:15:51,930 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.karaf.deployer.features/4.2.14
 2022-01-05T23:15:51,987 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   javax.servlet-api/3.1.0
@@ -184,8 +184,8 @@ INFO: Lock acquired. Setting startlevel to 100
 2022-01-05T23:15:51,990 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.ops4j.pax.web.pax-web-spi/7.2.29
 2022-01-05T23:15:51,991 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.geronimo.specs.geronimo-jta_1.1_spec/1.1.1
 2022-01-05T23:15:51,991 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 11 - org.apache.karaf.features.core - 4.2.14 |   org.apache.aries.spifly.dynamic.bundle/1.3.2
-2022-01-05T23:15:51,991 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Started bundle: file:/opt/karaf/deploy2/bundleimpl-0.9.0-SNAPSHOT.jar
-2022-01-05T23:15:51,990 | WARN  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Error while starting bundle: file:/opt/karaf/deploy/bundleapi-0.9.0-SNAPSHOT.jar
+2022-01-05T23:15:51,991 | INFO  | fileinstall-/opt/karaf/deploy2 | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Started bundle: file:/opt/karaf/deploy2/bundleimpl-1.0.0.jar
+2022-01-05T23:15:51,990 | WARN  | fileinstall-/opt/karaf/deploy | fileinstall                      | 10 - org.apache.felix.fileinstall - 3.7.2 | Error while starting bundle: file:/opt/karaf/deploy/bundleapi-1.0.0.jar
 org.osgi.framework.BundleException: Unable to acquire global lock for resolve. Unresolved requirements: []
 	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4149) ~[?:?]
 	at org.apache.felix.framework.Felix.startBundle(Felix.java:2119) ~[?:?]

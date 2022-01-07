@@ -6,9 +6,9 @@
 	<name>${project.artifactId}</name>
 
 	<parent>
-		<groupId>de.averbis.integration.karaftest</groupId>
+		<groupId>de.averbis.integration.platform.karaftest</groupId>
 		<artifactId>distribution</artifactId>
-		<version>0.9.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 
 	<packaging>karaf-assembly</packaging>

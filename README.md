@@ -1,6 +1,10 @@
 # REPRODUCING BUNDLE DEPLOYMENT FAILURE (fileinstall)
+installing docker
 
+run the following commands
 > docker rm -f karaftest_karaftest_1
+>
+> cd karaftest
 >
 > mvn clean install -DKARAF_VERSION=4.2.14
 >
@@ -8,9 +12,10 @@
 >
 xx │ Resolved │ 80 │ 0.9.0.SNAPSHOT │ bundleimpl<br>
 yy │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleapi<br>
-(the bundle 'bundleimpl' is not Active)<br>
+====> the bundle 'bundleimpl' is not Active<br>
 [karaf.log](./karaf.log)
 
+RUN
 > docker exec -it karaftest_karaftest_1 client start xx
 >
 OR
@@ -20,18 +25,29 @@ THEN
 > docker exec -it karaftest_karaftest_1 client list | grep bundle
 >
 xx │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleimpl<br>
-xx │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleapi
-(the bundle 'bundleimpl' is now Active)<br>
+xx │ Active │ 80 │ 0.9.0.SNAPSHOT │ bundleapi<br>
+====> the bundle 'bundleimpl' is now Active<br>
+
+if 'bundleimpl' is activated then run the following command until you see the result above
+> docker exec -it karaftest_karaftest_1 rm -rf /opt/karaf/data && sleep 5 && docker start karaftest_karaftest_1 && sleep 5 && docker exec -it karaftest_karaftest_1 client list | grep bundle
+>
+
+## CONCLUSION
+
+The first time activation of bundle doesn't work properly sometimes.
 <br>
 
 ### KEY POINTS
 
+The bundle 'bundleapi'
+
+- is deployed in the standard directory 'deploy/'
+- contains dummy files (ballast*) to make it big
+
 The bundle 'bundleimpl'
 
+- is deployed in a separate configured directory 'deploy2/'
 - imports a package of '* :: bundleapi'
-- is deployed in a separate directory 'deploy2'
-
-The bundle 'bundleapi' contains dummy files (ballast*) to make it big
 
 ### REPRODUCED IN
 
